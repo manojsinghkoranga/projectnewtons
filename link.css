@@ -1,0 +1,94 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eec8f8;
+}
+.heading{
+    width: 100%;
+    text-align: center;
+    font-size: larger;
+}
+
+.container{
+    background-color: rgb(211, 248, 248);
+    min-height: 1000px;
+    width: 80%;
+    border-radius: 15px;
+}
+textarea{
+    resize: none;
+    border: none;
+    background-color: rgb(245, 238, 229);
+}
+.comment-input{
+    resize: none;
+    border: none;
+    background-color: rgb(245, 238, 229);
+}
+
+.input-and-button-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    border-radius: 15px;
+    border: none;
+    color: white;
+}
+.success {
+    background-color: #009ada;
+}
+
+.success:hover {
+    background-color: #0ba5e5;
+}
+
+.delete {
+    background-color: #f00e0e;
+}
+
+.delete:hover {
+    background-color: #f44572;
+}
+
+.add-button {
+    margin-left: 8px;
+}
+
+.comment-wrapper {
+    width: 600px;
+    margin: 20px auto;
+}
+
+.comment {
+    margin-left: 28px;
+    margin-top: 8px;
+}
+
+.comment-text {
+    font-size: larger;
+}
+
+.button-and-likes-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 8px;
+}
+
+.likes-text {
+    font-size: 20px;
+}
+
+.reply-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.hide-reply > .reply-wrapper {
+    display: none;
+}
