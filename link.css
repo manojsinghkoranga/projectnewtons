@@ -28,6 +28,7 @@ textarea{
 }
 
 .input-and-button-wrapper {
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -58,7 +59,7 @@ textarea{
 }
 
 .comment-wrapper {
-    width: 600px;
+    width: 500px;
     margin: 20px auto;
 }
 
